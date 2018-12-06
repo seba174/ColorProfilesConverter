@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 using System.Windows.Forms;
 
 namespace ColorProfiles
@@ -15,6 +8,7 @@ namespace ColorProfiles
         public Form1()
         {
             InitializeComponent();
+            menuStrip.Renderer = new CustomMenuStripRenderer(Color.FromArgb(100, 100, 100));
         }
     }
 }
