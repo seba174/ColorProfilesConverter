@@ -50,7 +50,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.tableLayoutPanel22 = new System.Windows.Forms.TableLayoutPanel();
-            this.TragetBlue_Y = new System.Windows.Forms.TextBox();
+            this.TargetBlue_Y = new System.Windows.Forms.TextBox();
             this.TargetBlue_X = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.tableLayoutPanel23 = new System.Windows.Forms.TableLayoutPanel();
@@ -451,7 +451,7 @@
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel22.Controls.Add(this.TragetBlue_Y, 0, 0);
+            this.tableLayoutPanel22.Controls.Add(this.TargetBlue_Y, 0, 0);
             this.tableLayoutPanel22.Controls.Add(this.TargetBlue_X, 0, 0);
             this.tableLayoutPanel22.Controls.Add(this.label18, 0, 0);
             this.tableLayoutPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -462,16 +462,16 @@
             this.tableLayoutPanel22.Size = new System.Drawing.Size(251, 34);
             this.tableLayoutPanel22.TabIndex = 8;
             // 
-            // TragetBlue_Y
+            // TargetBlue_Y
             // 
-            this.TragetBlue_Y.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.TragetBlue_Y.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.TragetBlue_Y.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TragetBlue_Y.Location = new System.Drawing.Point(169, 6);
-            this.TragetBlue_Y.Name = "TragetBlue_Y";
-            this.TragetBlue_Y.Size = new System.Drawing.Size(79, 22);
-            this.TragetBlue_Y.TabIndex = 4;
-            this.TragetBlue_Y.TabStop = false;
+            this.TargetBlue_Y.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.TargetBlue_Y.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.TargetBlue_Y.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TargetBlue_Y.Location = new System.Drawing.Point(169, 6);
+            this.TargetBlue_Y.Name = "TargetBlue_Y";
+            this.TargetBlue_Y.Size = new System.Drawing.Size(79, 22);
+            this.TargetBlue_Y.TabIndex = 4;
+            this.TargetBlue_Y.TabStop = false;
             // 
             // TargetBlue_X
             // 
@@ -1236,7 +1236,7 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel22;
-        private System.Windows.Forms.TextBox TragetBlue_Y;
+        private System.Windows.Forms.TextBox TargetBlue_Y;
         private System.Windows.Forms.TextBox TargetBlue_X;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel23;
