@@ -132,4 +132,26 @@ namespace ColorProfiles
             Gamma = 1.95;
         }
     }
+
+    public class ProfileCustom : ColorProfile
+    {
+        public ProfileCustom()
+        {
+            Name = "Custom";
+
+            Red_X = 0.64;
+            Red_Y = 0.33;
+
+            Green_X = 0.3;
+            Green_Y = 0.6;
+
+            Blue_X = 0.15;
+            Blue_Y = 0.06;
+
+            White_X = 0.3127;
+            White_Y = 0.329;
+
+            Gamma = 2.2;
+        }
+    }
 }

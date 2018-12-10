@@ -11,23 +11,23 @@ namespace ColorProfiles
         public Vector GreenVector => DenseVector.OfArray(new double[] { Green_X, Green_Y, Green_Z });
         public Vector BlueVector => DenseVector.OfArray(new double[] { Blue_X, Blue_Y, Blue_Z });
 
-        public double Red_X { get; protected set; }
-        public double Red_Y { get; protected set; }
+        public double Red_X { get; set; }
+        public double Red_Y { get; set; }
         public double Red_Z => 1 - Red_X - Red_Y;
 
-        public double Green_X { get; protected set; }
-        public double Green_Y { get; protected set; }
+        public double Green_X { get; set; }
+        public double Green_Y { get; set; }
         public double Green_Z => 1 - Green_X - Green_Y;
 
-        public double Blue_X { get; protected set; }
-        public double Blue_Y { get; protected set; }
+        public double Blue_X { get; set; }
+        public double Blue_Y { get; set; }
         public double Blue_Z => 1 - Blue_X - Blue_Y;
 
-        public double White_X { get; protected set; }
-        public double White_Y { get; protected set; }
+        public double White_X { get; set; }
+        public double White_Y { get; set; }
         public double White_Z => 1 - White_X - White_Y;
 
-        public double Gamma { get; protected set; }
+        public double Gamma { get; set; }
 
         public override string ToString()
         {
