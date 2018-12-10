@@ -100,6 +100,8 @@
             this.OriginalPicture = new System.Windows.Forms.PictureBox();
             this.ConvertedPicture = new System.Windows.Forms.PictureBox();
             this.PictureFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.PictureSaveDialog = new System.Windows.Forms.SaveFileDialog();
+            this.convertToGrayScaleButton = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel14.SuspendLayout();
@@ -1045,7 +1047,8 @@
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.loadPictureButton,
             this.generatePictureButton,
-            this.savePictureButton});
+            this.savePictureButton,
+            this.convertToGrayScaleButton});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(1094, 38);
@@ -1098,6 +1101,7 @@
             // OriginalPicture
             // 
             this.OriginalPicture.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.OriginalPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.OriginalPicture.Dock = System.Windows.Forms.DockStyle.Fill;
             this.OriginalPicture.Location = new System.Drawing.Point(13, 18);
             this.OriginalPicture.Name = "OriginalPicture";
@@ -1108,6 +1112,7 @@
             // ConvertedPicture
             // 
             this.ConvertedPicture.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ConvertedPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ConvertedPicture.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ConvertedPicture.Location = new System.Drawing.Point(552, 18);
             this.ConvertedPicture.Name = "ConvertedPicture";
@@ -1119,6 +1124,18 @@
             // 
             this.PictureFileDialog.Filter = "Images (*.jpg, *.jpeg, *.png, *.bmp, *.gif) | *.jpg; *.jpeg; *.png; *.bmp; *.gif;" +
     "";
+            // 
+            // PictureSaveDialog
+            // 
+            this.PictureSaveDialog.Filter = "Images (*.jpg, *.jpeg, *.png, *.bmp, *.gif) | *.jpg; *.jpeg; *.png; *.bmp; *.gif;" +
+    "";
+            // 
+            // convertToGrayScaleButton
+            // 
+            this.convertToGrayScaleButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.convertToGrayScaleButton.Name = "convertToGrayScaleButton";
+            this.convertToGrayScaleButton.Size = new System.Drawing.Size(142, 34);
+            this.convertToGrayScaleButton.Text = "Convert to GrayScale";
             // 
             // Form1
             // 
@@ -1259,6 +1276,8 @@
         private System.Windows.Forms.PictureBox OriginalPicture;
         private System.Windows.Forms.PictureBox ConvertedPicture;
         private System.Windows.Forms.OpenFileDialog PictureFileDialog;
+        private System.Windows.Forms.SaveFileDialog PictureSaveDialog;
+        private System.Windows.Forms.ToolStripMenuItem convertToGrayScaleButton;
     }
 }
 
