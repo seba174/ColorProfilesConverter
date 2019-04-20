@@ -9,3 +9,6 @@ Avaliable color profiles:
 + Wide gamut
 + PAL/SECAM
 + Custom
+
+## Screenshots
+![](/../screenshots/Screenshot.png?raw=true "Screenshot from application")
